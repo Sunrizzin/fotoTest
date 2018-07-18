@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58756FA7D08AB593BB23A126 /* Pods_PerfectFotos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA6B5482CFE4B34C562EC1A /* Pods_PerfectFotos.framework */; };
+		D81CA38E20FF149C0097B4F2 /* PreviewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81CA38D20FF149C0097B4F2 /* PreviewCollectionViewController.swift */; };
+		D81CA39020FF14AF0097B4F2 /* PreviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81CA38F20FF14AF0097B4F2 /* PreviewCollectionViewCell.swift */; };
+		D81CA39220FF14C30097B4F2 /* FullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81CA39120FF14C30097B4F2 /* FullViewController.swift */; };
+		D81CA39620FF15650097B4F2 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81CA39520FF15650097B4F2 /* ImageManager.swift */; };
+		D84D543520FF12E000D8F516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84D543420FF12E000D8F516 /* AppDelegate.swift */; };
+		D84D543A20FF12E000D8F516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84D543820FF12E000D8F516 /* Main.storyboard */; };
+		D84D543C20FF12E100D8F516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D84D543B20FF12E100D8F516 /* Assets.xcassets */; };
+		D84D543F20FF12E100D8F516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D84D543D20FF12E100D8F516 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EA6B5482CFE4B34C562EC1A /* Pods_PerfectFotos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectFotos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B0AC3C8788AEFE1F3AA4523 /* Pods-PerfectFotos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFotos.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFotos/Pods-PerfectFotos.release.xcconfig"; sourceTree = "<group>"; };
+		D81CA38D20FF149C0097B4F2 /* PreviewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCollectionViewController.swift; sourceTree = "<group>"; };
+		D81CA38F20FF14AF0097B4F2 /* PreviewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		D81CA39120FF14C30097B4F2 /* FullViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullViewController.swift; sourceTree = "<group>"; };
+		D81CA39520FF15650097B4F2 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		D84D543120FF12E000D8F516 /* PerfectFotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectFotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D84D543420FF12E000D8F516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D84D543920FF12E000D8F516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D84D543B20FF12E100D8F516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D84D543E20FF12E100D8F516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D84D544020FF12E100D8F516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3D896FE627195B44605098 /* Pods-PerfectFotos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectFotos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectFotos/Pods-PerfectFotos.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D84D542E20FF12E000D8F516 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58756FA7D08AB593BB23A126 /* Pods_PerfectFotos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5350BD412CF8F17EC880FFDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EA6B5482CFE4B34C562EC1A /* Pods_PerfectFotos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B80C21F59B6D84E8F70513 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3D896FE627195B44605098 /* Pods-PerfectFotos.debug.xcconfig */,
+				7B0AC3C8788AEFE1F3AA4523 /* Pods-PerfectFotos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D81CA39320FF15060097B4F2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D81CA38F20FF14AF0097B4F2 /* PreviewCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D81CA39420FF15110097B4F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D81CA39120FF14C30097B4F2 /* FullViewController.swift */,
+				D81CA38D20FF149C0097B4F2 /* PreviewCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D84D542820FF12E000D8F516 = {
+			isa = PBXGroup;
+			children = (
+				D84D543320FF12E000D8F516 /* PerfectFotos */,
+				D84D543220FF12E000D8F516 /* Products */,
+				72B80C21F59B6D84E8F70513 /* Pods */,
+				5350BD412CF8F17EC880FFDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D84D543220FF12E000D8F516 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D84D543120FF12E000D8F516 /* PerfectFotos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D84D543320FF12E000D8F516 /* PerfectFotos */ = {
+			isa = PBXGroup;
+			children = (
+				D81CA39420FF15110097B4F2 /* Controllers */,
+				D81CA39320FF15060097B4F2 /* Cell */,
+				D84D543420FF12E000D8F516 /* AppDelegate.swift */,
+				D84D543820FF12E000D8F516 /* Main.storyboard */,
+				D84D543B20FF12E100D8F516 /* Assets.xcassets */,
+				D84D543D20FF12E100D8F516 /* LaunchScreen.storyboard */,
+				D84D544020FF12E100D8F516 /* Info.plist */,
+				D81CA39520FF15650097B4F2 /* ImageManager.swift */,
+			);
+			path = PerfectFotos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D84D543020FF12E000D8F516 /* PerfectFotos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D84D544320FF12E100D8F516 /* Build configuration list for PBXNativeTarget "PerfectFotos" */;
+			buildPhases = (
+				C638FCAF055FC4845A0071E1 /* [CP] Check Pods Manifest.lock */,
+				D84D542D20FF12E000D8F516 /* Sources */,
+				D84D542E20FF12E000D8F516 /* Frameworks */,
+				D84D542F20FF12E000D8F516 /* Resources */,
+				96AB0E399A434BA9C6DDA8E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectFotos;
+			productName = PerfectFotos;
+			productReference = D84D543120FF12E000D8F516 /* PerfectFotos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D84D542920FF12E000D8F516 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Алексей Усанов";
+				TargetAttributes = {
+					D84D543020FF12E000D8F516 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D84D542C20FF12E000D8F516 /* Build configuration list for PBXProject "PerfectFotos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D84D542820FF12E000D8F516;
+			productRefGroup = D84D543220FF12E000D8F516 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D84D543020FF12E000D8F516 /* PerfectFotos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D84D542F20FF12E000D8F516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D84D543F20FF12E100D8F516 /* LaunchScreen.storyboard in Resources */,
+				D84D543C20FF12E100D8F516 /* Assets.xcassets in Resources */,
+				D84D543A20FF12E000D8F516 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96AB0E399A434BA9C6DDA8E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFotos/Pods-PerfectFotos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/EmptyDataSet-Swift/EmptyDataSet_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NotificationBannerSwift/NotificationBannerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EmptyDataSet_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NotificationBannerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerfectFotos/Pods-PerfectFotos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C638FCAF055FC4845A0071E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectFotos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D84D542D20FF12E000D8F516 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81CA39020FF14AF0097B4F2 /* PreviewCollectionViewCell.swift in Sources */,
+				D81CA39620FF15650097B4F2 /* ImageManager.swift in Sources */,
+				D81CA39220FF14C30097B4F2 /* FullViewController.swift in Sources */,
+				D84D543520FF12E000D8F516 /* AppDelegate.swift in Sources */,
+				D81CA38E20FF149C0097B4F2 /* PreviewCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D84D543820FF12E000D8F516 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84D543920FF12E000D8F516 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D84D543D20FF12E100D8F516 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D84D543E20FF12E100D8F516 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D84D544120FF12E100D8F516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D84D544220FF12E100D8F516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D84D544420FF12E100D8F516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA3D896FE627195B44605098 /* Pods-PerfectFotos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV86YXPL67;
+				INFOPLIST_FILE = PerfectFotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrizz.PerfectFotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D84D544520FF12E100D8F516 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B0AC3C8788AEFE1F3AA4523 /* Pods-PerfectFotos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV86YXPL67;
+				INFOPLIST_FILE = PerfectFotos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrizz.PerfectFotos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D84D542C20FF12E000D8F516 /* Build configuration list for PBXProject "PerfectFotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84D544120FF12E100D8F516 /* Debug */,
+				D84D544220FF12E100D8F516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D84D544320FF12E100D8F516 /* Build configuration list for PBXNativeTarget "PerfectFotos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D84D544420FF12E100D8F516 /* Debug */,
+				D84D544520FF12E100D8F516 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D84D542920FF12E000D8F516 /* Project object */;
+}
